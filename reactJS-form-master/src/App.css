@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+}
+
+.App{
+  background-color: white;
+  min-height: 100vh;
+}
+
+.appHeader{
+  padding: 5vh 0;
+  text-align: center;
+  box-shadow: 0 2px 15px 1px lightgrey;
+}
+.logo{
+  width: 10%;
+}
+.formbox{
+  margin: 5vh auto;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 2px 0 lightgrey;
+  width: 20%;
+  min-height: 55vh;
+  padding: 2vh 2.5vw 5vh 2.5vw;
+}
+.formHeader{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5vh;
+}
+.formHeader h5{
+  font-weight: normal;
+}
+
+.createAccount{
+  text-align: center;
+  margin-bottom: 2vh;
+}
+.createAccount h2{
+  font-weight: normal;
+}
+
+.smallText{
+  text-align: center;
+  margin-bottom: 1vh;
+}
+.smallText p{
+  font-size: 10px;
+}
+.thirdPartySignup{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+}
+.thirdPartyButtonGoogle{
+  font-size: 9px;
+  padding: 7px 30px;
+  border: none;
+  background-color: white;
+  color: grey;
+  box-shadow: 0 0 4px 0 lightgrey;
+}
+.thirdPartyButton{
+  font-size: 9px;
+  padding: 7px 24px;
+  border: none;
+  background-color: white;
+  color: grey;
+  box-shadow: 0 0 4px 0 lightgrey;
+}
+.thirdPartyButtonGoogle i{
+  color: green;
+}
+.thirdPartyButton i{
+  color: #289fce;
+}
+.thirdPartyButton:hover, .thirdPartyButtonGoogle:hover{
+  cursor: pointer;
+}
+.or{
+  text-align: center;
+  margin-bottom: 3vh;
+}
+.or p{
+  font-size: 10px;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid lightgrey; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+.or span{
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.inputFieldHolder{
+  margin-bottom: 8px;
+}
+.inputField{
+  width: 94%;
+  padding: 8px;
+  border: 1px solid  lightgrey;
+  box-shadow: -1px -1px 2px -1px black;
+}
+.tnc{
+  text-align: center;
+  margin-bottom: 2vh;
+}
+.tnc p{
+  font-size: 10px;
+}
+.tnc a{
+  text-decoration: none;
+  color: #00b7ff;
+}
+
+.signUp{
+  width: 100%;
+  font-size: 8px;
+  padding: 10px 0;
+  border: none;
+  background-color: #289fce;
+  color:white;
+  box-shadow: 0 0 15px 1px lightgrey;
+}
+
+@media screen and (max-width: 1400px){
+  .formbox{
+    width: 65%;
+  }
+}
